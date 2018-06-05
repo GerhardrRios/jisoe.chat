@@ -3,8 +3,8 @@ body {
 }
 
 div.poopdiv {
-   width: 348px;
-   height: 373px;
+   width: 480px;
+   height: 480px;
 
    position: absolute;
    top:0;
@@ -19,6 +19,7 @@ div.poopdiv {
    cursor: hand;
    cursor: pointer;
 }
+
 span.smaller-text {
    font-size: 55px;
 }
@@ -46,9 +47,11 @@ div.board-button {
    float: left;
    margin: 20px;
    padding: 20px;
-   text-align: center;
    font-size: 30px;
-   line-height: 180px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
    cursor: hand;
    cursor: pointer;
 }
